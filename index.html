@@ -76,42 +76,71 @@
             
           <div class="item">
               <video poster="" id="entire-with40-phasediagram" autoplay controls muted loop playsinline height="100%">
-                <source src="./static/videos/entire_phase_diagram_width40.mp4"
+                <source src="./static/videos/phase_diagram_width40_Aug-Oct.mp4"
                         type="video/mp4">
               </video>
             </div>
 
             <div class="item">
               <video poster="" id="entire-with40-phasediagram" autoplay controls muted loop playsinline height="100%">
-                <source src="./static/videos/entire_phase_diagram_width60.mp4"
+                <source src="./static/videos/phase_diagram_width60_Aug-Oct.mp4"
                         type="video/mp4">
               </video>
             </div>
 
             <div class="item">
               <video poster="" id="fall_winter-with40-phasediagram" autoplay controls muted loop playsinline height="100%">
-                <source src="./static/videos/phase_diagram_fall_winter_width40.mp4"
+                <source src="./static/videos/phase_diagram_width40_Nov-Jan.mp4"
                         type="video/mp4">
               </video>
             </div>
 
             <div class="item">
               <video poster="" id="fall_winter-with40-phasediagram" autoplay controls muted loop playsinline height="100%">
-                <source src="./static/videos/phase_diagram_fall_winter_width60.mp4"
+                <source src="./static/videos/phase_diagram_width60_Nov-Jan.mp4"
                         type="video/mp4">
               </video>
             </div>
 
             <div class="item">
               <video poster="" id="spring_summer-with40-phasediagram" autoplay controls muted loop playsinline height="100%">
-                <source src="./static/videos/phase_diagram_spring_summer_width40.mp4"
+                <source src="./static/videos/phase_diagram_width40_Jan-Mar.mp4"
                         type="video/mp4">
               </video>
             </div>
 
             <div class="item">
               <video poster="" id="spring_summer-with40-phasediagram" autoplay controls muted loop playsinline height="100%">
-                <source src="./static/videos/phase_diagram_spring_summer_width60.mp4"
+                <source src="./static/videos/phase_diagram_width60_Jan-Mar.mp4"
+                        type="video/mp4">
+              </video>
+            </div>
+
+            <div class="item">
+              <video poster="" id="spring_summer-with40-phasediagram" autoplay controls muted loop playsinline height="100%">
+                <source src="./static/videos/phase_diagram_width40_Mar-May.mp4"
+                        type="video/mp4">
+              </video>
+            </div>
+
+            <div class="item">
+              <video poster="" id="spring_summer-with40-phasediagram" autoplay controls muted loop playsinline height="100%">
+                <source src="./static/videos/phase_diagram_width60_Mar-May.mp4"
+                        type="video/mp4">
+              </video>
+            </div>
+
+
+            <div class="item">
+              <video poster="" id="spring_summer-with40-phasediagram" autoplay controls muted loop playsinline height="100%">
+                <source src="./static/videos/phase_diagram_width40_May-Jul.mp4"
+                        type="video/mp4">
+              </video>
+            </div>
+
+            <div class="item">
+              <video poster="" id="spring_summer-with40-phasediagram" autoplay controls muted loop playsinline height="100%">
+                <source src="./static/videos/phase_diagram_width60_May-Jul.mp4"
                         type="video/mp4">
               </video>
             </div>
@@ -132,15 +161,14 @@
         <div class="column is-four-fifths">
           <h2 class="title is-3">Abstract</h2>
           <div class="content has-text-justified">
+
             <p>
-              Abstract here
+              The Madden-Julian Oscillation (MJO) is an influential climate phenomenon that plays a vital role in modulating global weather patterns. 
+              In spite of the improvement in MJO predictions made by machine learning algorithms, such as neural networks, most of them cannot provide the uncertainty of the MJO prediction directly. 
+              To address this problem, we develop a nonparametric strategy based on Gaussian process (GP) models. We calibrate GPs by using empirical correlations. 
+              Furthermore, we propose an a posteriori covariance correction that extends the probabilistic coverage by more than three weeks.
             </p>
-            <p>
-              Abstract here
-            </p>
-            <p>
-              Abstract here
-            </p>
+
           </div>
         </div>
       </div>
@@ -192,24 +220,10 @@
               <h2 class="title is-3">Figures</h2>
 
             <div id="results-carousel" class="carousel results-carousel">
-
-                <div class="item">  
-                  <img src="static/images/emp_entire_errs.png" alt="MY ALT TEXT"/>
-                  <h2 class="subtitle has-text-centered">
-                  Errors
-                  </h2>
-                </div>
-
-                <div class="item">  
-                    <img src="static/images/emp_entire_hss.png" alt="MY ALT TEXT"/>
-                    <h2 class="subtitle has-text-centered">
-                    HSS Heatmap
-                    </h2>
-                </div>
                 
                 <div class="item">
                     <!-- Your image here -->
-                    <img src="static/images/emp_entire_ts_rmms.png" alt="MY ALT TEXT"/>
+                    <img src="static/images/ts_rmms_Aug-Oct.png" alt="MY ALT TEXT"/>
                     <h2 class="subtitle has-text-centered">
                     Time Series of RMMs
                     </h2>
@@ -217,11 +231,75 @@
 
                 <div class="item">
                     <!-- Your image here -->
-                    <img src="static/images/emp_entire_ts_angle_amplitude.png" alt="MY ALT TEXT"/>
+                    <img src="static/images/ts_phase_amplitude_Aug-Oct.png" alt="MY ALT TEXT"/>
                     <h2 class="subtitle has-text-centered">
                     Time Series of Phase and Amplitude
                     </h2>
                 </div>
+
+                <div class="item">
+                  <!-- Your image here -->
+                  <img src="static/images/ts_rmms_Nov-Jan.png" alt="MY ALT TEXT"/>
+                  <h2 class="subtitle has-text-centered">
+                  Time Series of RMMs
+                  </h2>
+              </div>
+
+              <div class="item">
+                  <!-- Your image here -->
+                  <img src="static/images/ts_phase_amplitude_Nov-Jan.png" alt="MY ALT TEXT"/>
+                  <h2 class="subtitle has-text-centered">
+                  Time Series of Phase and Amplitude
+                  </h2>
+              </div>
+
+              <div class="item">
+                <!-- Your image here -->
+                <img src="static/images/ts_rmms_Jan-Mar.png" alt="MY ALT TEXT"/>
+                <h2 class="subtitle has-text-centered">
+                Time Series of RMMs
+                </h2>
+            </div>
+
+            <div class="item">
+                <!-- Your image here -->
+                <img src="static/images/ts_phase_amplitude_Jan-Mar.png" alt="MY ALT TEXT"/>
+                <h2 class="subtitle has-text-centered">
+                Time Series of Phase and Amplitude
+                </h2>
+            </div>
+
+            <div class="item">
+              <!-- Your image here -->
+              <img src="static/images/ts_rmms_Mar-May.png" alt="MY ALT TEXT"/>
+              <h2 class="subtitle has-text-centered">
+              Time Series of RMMs
+              </h2>
+          </div>
+
+          <div class="item">
+              <!-- Your image here -->
+              <img src="static/images/ts_phase_amplitude_Mar-May.png" alt="MY ALT TEXT"/>
+              <h2 class="subtitle has-text-centered">
+              Time Series of Phase and Amplitude
+              </h2>
+          </div>
+
+          <div class="item">
+            <!-- Your image here -->
+            <img src="static/images/ts_rmms_May-Jul.png" alt="MY ALT TEXT"/>
+            <h2 class="subtitle has-text-centered">
+            Time Series of RMMs
+            </h2>
+        </div>
+
+        <div class="item">
+            <!-- Your image here -->
+            <img src="static/images/ts_phase_amplitude_May-Jul.png" alt="MY ALT TEXT"/>
+            <h2 class="subtitle has-text-centered">
+            Time Series of Phase and Amplitude
+            </h2>
+        </div>
 
                 <!-- <div class="item">
                     <img src="static/images/emp_entire_ts_phase_diagram.png" class="align-middle" alt="MY ALT TEXT"/>
